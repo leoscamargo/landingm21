@@ -30,14 +30,7 @@ document.addEventListener('DOMContentLoaded', function(){
         questions[i].addEventListener('click', abreOuFechaResposta);
     }
 })
-function ocultaElementosHeader(){
-    const header = document.querySelector('header');
-    header.classList.add('header--is-hidden');
-}
-function exibeElementosHeader(){
-    const header = document.querySelector('header');
-    header.classList.remove('header--is-hidden');
-}
+
 
 function abreOuFechaResposta(elemento){
     const classe = 'faq__questions__item--is-open';
